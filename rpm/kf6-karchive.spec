@@ -1,7 +1,7 @@
 %global  kf_version 6.6.0
 
 Name:           kf6-karchive
-Version:        6.6.0
+Version: 6.6.0
 Release:        0%{?dist}
 Summary:        KDE Frameworks 6 Tier 1 addon with archive functions
 License:        LGPL-2.0-or-later AND BSD-2-Clause
