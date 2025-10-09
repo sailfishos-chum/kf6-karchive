@@ -27,6 +27,8 @@ BuildRequires:  bzip2-devel
 BuildRequires:  xz-devel
 BuildRequires:  zlib-devel
 
+BuildRequires:  pkgconfig(openssl)
+
 %description
 KDE Frameworks 6 Tier 1 addon with archive functions.
 
@@ -65,7 +67,6 @@ Developer Documentation files for %{name} for use with KDevelop or QtCreator.
 %{_kf6_includedir}/KArchive/
 %{_kf6_libdir}/cmake/KF6Archive/
 %{_kf6_libdir}/libKF6Archive.so
-%{_qt6_docdir}/*.tags
 
 %files doc
 %{_qt6_docdir}/*.qch
